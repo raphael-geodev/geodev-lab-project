@@ -24,7 +24,7 @@ Residents in parts of Ibadan report unreliable access to cabs and shared taxis, 
 ## 4. Where Each Dataset Comes From
 
 | Data item | Source | Link | Format | Size |
-|---|---|---|
+|---|---|---|---|
 | LGA administrative boundary | GRID3 Data Hub | https://data.grid3.org | Geopackage | 4.2 MB |
 | Settlement extents | GRID3 Data Hub | https://data.grid3.org | Geopackage | 1.9 GB |
 | Road network with classification | OpenStreetMap (via QuickOSM in QGIS) | https://www.openstreetmap.org | Geopackage | 996 KB |
