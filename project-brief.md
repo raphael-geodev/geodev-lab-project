@@ -1,7 +1,7 @@
 # Project Brief
 
 **Project:** Transport Access Mapping — Ibadan South-West, Oyo State
-**Author:** Oladokun Raphael Ayode
+**Author:** Oladokun Raphael Ayodeji
 **Cohort:** GeoDev Lab Africa, Cohort One
 **Date:** 3/9/2026
 
@@ -23,13 +23,13 @@ Residents in parts of Ibadan report unreliable access to cabs and shared taxis, 
 
 ## 4. Where Each Dataset Comes From
 
-| Data item | Source | Link |
+| Data item | Source | Link | Format | Size |
 |---|---|---|
-| LGA administrative boundary | GRID3 Data Hub | https://data.grid3.org |
-| Settlement extents | GRID3 Data Hub | https://data.grid3.org |
-| Road network with classification | OpenStreetMap (via QuickOSM in QGIS) | https://www.openstreetmap.org |
+| LGA administrative boundary | GRID3 Data Hub | https://data.grid3.org | Geopackage | 4.2 MB |
+| Settlement extents | GRID3 Data Hub | https://data.grid3.org | Geopackage | 1.9 GB |
+| Road network with classification | OpenStreetMap (via QuickOSM in QGIS) | https://www.openstreetmap.org | Geopackage | 996 KB |
 
-## 5. What You Would Build
+## 5. What I Would Build
 
 A web map showing every settlement in Ibadan South-West, shaded by distance to the nearest major road.
 
