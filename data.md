@@ -40,3 +40,10 @@ The question was adjusted to rely on road classification and geometry (the `high
 - All layers clipped to study_area boundary; visually confirmed no clipped features fall outside the study area
 - Working files (reprojected, clipped) saved in data/processed/: lga_boundaries_utm31.gpkg, roads_utm31.gpkg, roads_ibadan_southwest.gpkg, settlements_utm31.gpkg, settlements_ibadan_southwest.gpkg, study_area.gpkg
 - Raw files in data/raw/ left untouched throughout
+
+## Five quality checks — Ibadan South-West study area
+1. **Completeness** — Layers compared visually against each other and against satellite basemap; roads and settlement boundaries matched well with no visible coverage gaps in the study area.
+2. **Currency** — All datasets confirmed as latest GRID3 releases; settlement extents specifically v4.1.
+3. **Positional accuracy** — All three layers checked against basemap and against each other; consistent alignment, no offset found.
+4. **Attribute accuracy** — Checked on roads layer (`surface` column): confirmed sparse and inconsistent tagging on residential/service roads, already identified in Week 1. Not checked on settlement extents — the clipped file is too large to sort/scan without risking a system crash; flagged as an open gap rather than assumed clean.
+5. **Fitness for purpose** — Road data is adequate for a "distance to major road" analysis (classification/geometry reliable) but not for a strict paved-road analysis (surface tagging too sparse) — this is why the project question was adjusted in Week 1. Settlement extents are fit for identifying built-up areas at LGA scale, though attribute-level fitness remains unverified pending the check above.
