@@ -2,7 +2,7 @@
 
 ## GRID3 Nigeria Operational LGA Boundaries
 - Source: https://data.grid3.org
-- Downloaded: [date]
+- Downloaded: Week 1&3
 - 774 features, polygons (MultiPolygon)
 - Columns: FID (integer, 64-bit), globalid (text), uniq_id (integer, 32-bit), timestamp (text), editor (text), lganame (text), lgacode (text), statename (text), statecode (text), source (text), amapcode (text)
 - No nulls found
