@@ -1,7 +1,7 @@
 # Project brief
 
 **Week 1 deliverable.** GeoDev Lab Africa, Cohort One.
-Author: Raphael
+Author: Raphael  Oladokun
 
 ---
 
@@ -27,11 +27,11 @@ The original question asked about "paved road" specifically, but this was revise
 
 ## 5. Datasets
 
-| # | Dataset | What it gives me | Source | Format | Size |
+| S/N | Dataset | What it gives me | Source | Format | Size |
 |---|---|---|---|---|---|
-| 1 | GRID3 Nigeria Operational LGA Boundaries | Administrative boundary to define and clip the study area | https://data.grid3.org | GeoPackage | [to confirm] |
+| 1 | GRID3 Nigeria Operational LGA Boundaries | Administrative boundary to define and clip the study area | https://data.grid3.org | GeoPackage | 4.2 MB | 
 | 2 | GRID3 Nigeria Settlement Extents v4.1 | Built-up settlement polygons — the units of analysis | https://data.grid3.org | GeoPackage | ~1.9 GB (nationwide) |
-| 3 | OpenStreetMap roads (via QuickOSM) | Road network with classification, used to measure distance to major roads | https://www.openstreetmap.org | GeoPackage | [to confirm] |
+| 3 | OpenStreetMap roads (via QuickOSM) | Road network with classification, used to measure distance to major roads | https://www.openstreetmap.org | GeoPackage | 996 KB |
 
 ## 6. What "done" looks like
 
