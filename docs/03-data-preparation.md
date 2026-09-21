@@ -1,7 +1,7 @@
 # Data preparation
 
 **Week 3 deliverable.** GeoDev Lab Africa, Cohort One.
-Author: Raphael
+Author: Raphael  Oladokun
 
 What I reprojected, what I clipped, what I checked, and what I fixed.
 
@@ -25,7 +25,7 @@ What I reprojected, what I clipped, what I checked, and what I fixed.
 
 - **Boundary used:** Single feature exported from GRID3 LGA boundaries (Ibadan South-West), saved as `data/processed/study_area.gpkg`
 - **Features before clipping:** Roads 2,762 (LGA extent from QuickOSM query); Settlements 2,546,560 (nationwide)
-- **Features after clipping:** [to confirm exact counts from attribute tables]
+- **Features after clipping:** Roads 1859; Settlements 1536
 
 Visual inspection confirmed no clipped features from either layer fall outside the study area boundary.
 
@@ -34,7 +34,7 @@ Visual inspection confirmed no clipped features from either layer fall outside t
 | Check | Result | Action taken |
 |---|---|---|
 | Is the CRS what I think it is? | Confirmed — mixed CRS found (EPSG:4326, EPSG:3857) | Reprojected all layers to EPSG:32631 |
-| Are there nulls in the fields I need? | Yes — `surface` on roads is sparse/inconsistent; not checked on settlement extents | Roads: acknowledged and worked around by not depending on `surface`. Settlements: not checked — file too large to sort without risking a system crash; flagged as an open gap |
+| Are there nulls  in the fields I need? | Yes — `surface` on roads is sparse/inconsistent; not checked on settlement extents | Roads: acknowledged and worked around by not depending on `surface`. Settlements: not checked — file too large to sort without risking a system crash; flagged as an open gap |
 | Are there duplicate features? | Not checked | Flagged as an open gap, not yet run on any layer |
 | Is the geometry valid? | Not checked | Flagged as an open gap, not yet run on any layer |
 | Does coverage span the whole study area? | Yes | Confirmed visually against satellite basemap; roads matched ~99% |
@@ -50,7 +50,7 @@ Visual inspection confirmed no clipped features from either layer fall outside t
 - **File:** `data/processed/roads_ibadan_southwest.gpkg`, `data/processed/settlements_ibadan_southwest.gpkg`, `data/processed/study_area.gpkg`
 - **Format:** GeoPackage
 - **CRS:** EPSG:32631
-- **Features:** [to confirm exact clipped counts]
+- **Features:** Study area 1; Roads 1859; Settlements 1536
 - **Produced by:** Manually in QGIS (Reproject Layer, Clip)
 
 ---
