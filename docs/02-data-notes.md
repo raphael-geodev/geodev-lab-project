@@ -1,7 +1,7 @@
 # Data notes
 
 **Week 2 deliverable.** GeoDev Lab Africa, Cohort One.
-Author: Raphael
+Author: Raphael Oladokun
 
 What I downloaded, where it came from, what is in it, and what is wrong
 with it.
@@ -12,16 +12,16 @@ with it.
 
 | # | Dataset | Type | Retrieved | Status |
 |---|---|---|---|---|
-| 1 | GRID3 Nigeria Operational LGA Boundaries | Vector (polygon) | [date] | OK |
-| 2 | OSM roads (Ibadan South-West, via QuickOSM) | Vector (line) | [date] | OK |
-| 3 | GRID3 Nigeria Settlement Extents v4.1 | Vector (polygon) | [date] | OK |
+| 1 | GRID3 Nigeria Operational LGA Boundaries | Vector (polygon) | 3/9/2026 | OK |
+| 2 | OSM roads (Ibadan South-West, via QuickOSM) | Vector (line) |  3/9/2026 | OK |
+| 3 | GRID3 Nigeria Settlement Extents v4.1 | Vector (polygon) |  14/9/2026 | OK |
 
 ---
 
 ## 1. GRID3 Nigeria Operational LGA Boundaries
 
 - **Source:** https://data.grid3.org
-- **Retrieved:** [date]
+- **Retrieved:**  3/9/2026
 - **File:** `data/raw/nga_lga_boundaries.gpkg`
 - **Format:** GeoPackage
 - **Geometry type:** Polygon (MultiPolygon)
@@ -47,7 +47,7 @@ Row count (774) matches the known total number of LGAs in Nigeria — a useful s
 ## 2. OSM roads (Ibadan South-West, via QuickOSM)
 
 - **Source:** https://www.openstreetmap.org (extracted via QuickOSM plugin in QGIS)
-- **Retrieved:** [date]
+- **Retrieved:**  3/9/2026
 - **File:** `data/raw/ibadan_highway.gpkg`
 - **Format:** GeoPackage
 - **Geometry type:** Line
@@ -72,7 +72,7 @@ All columns except `fid` are stored as text, expected for OSM tag values. The `s
 ## 3. GRID3 Nigeria Settlement Extents v4.1
 
 - **Source:** https://data.grid3.org
-- **Retrieved:** [date]
+- **Retrieved:**  14/9/2026
 - **File:** `data/raw/nga_settlement_extents_v4_1.gpkg`
 - **Format:** GeoPackage
 - **Geometry type:** Polygon (MultiPolygon)
@@ -83,7 +83,7 @@ All columns except `fid` are stored as text, expected for OSM tag values. The `s
 
 | Column | What it holds | Nulls |
 |---|---|---|
-| — | Mix of Integer (64-bit), Integer (32-bit), Text, and Decimal (double) fields | Not checked at national scale |
+| Numerous Columns| Mix of Integer (64-bit), Integer (32-bit), Text, and Decimal (double) fields | Not checked at national scale |
 
 **What I noticed**
 
