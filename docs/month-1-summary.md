@@ -1,7 +1,7 @@
 # Month 1 summary
 
 **Week 4 deliverable.** GeoDev Lab Africa, Cohort One.
-Author: Raphael
+Author: Raphael Oladokun
 
 ---
 
