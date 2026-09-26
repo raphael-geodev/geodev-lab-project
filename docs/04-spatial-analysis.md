@@ -76,7 +76,7 @@ Three thresholds are reported rather than one. The project's original 2km figure
 
 ## 9. Map
 
-`settlements_distance_final` symbolised as Graduated, manual class breaks at 0–800 / 800–1,000 / 1,000–2,000 / 2,000+ metres, matching the thresholds above. Exported as a print layout with map, legend, title, and scale bar.
+`settlements_distance_final` symbolised as Graduated, manual class breaks at 0–800 / 800–1,000 / 1,000–2,000 / 2,000+ metres, matching the thresholds above. Exported as a print layout with map, legend, title, and scale bar. See [Produced Map](outputs/ibadan_transport_access_map)
 
 ---
 
