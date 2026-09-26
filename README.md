@@ -20,7 +20,7 @@ ibadan-transport-access/
 │   └── 03-data-preparation.md   Week 3
 ├── data/
 │   ├── raw/                     downloads, not committed
-│   └── processed/               outputs, not committed
+│   └── processed/               outputs,  committed
 ├── scripts/
 └── requirements.txt
 ```
@@ -37,7 +37,7 @@ pip install -r requirements.txt
 ```
 
 The data is not in this repository. Every source is linked in
-[the project brief](docs/01-project-brief.md), so anyone can fetch it.
+[the project brief](docs/01-project-brief.md), so anyone can fetch it. The processed data are  in [processed data](processed)
 
 ## Progress
 
