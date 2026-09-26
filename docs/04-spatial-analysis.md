@@ -28,7 +28,7 @@ One output row per settlement (1,536), each carrying a distance value in metres 
 
 ## 4. Running it
 
-- Tool: `Join attributes by nearest` (QGIS 4.2.2 — not present under the Vector menu in this version, located instead via the Processing Toolbox search)
+- Tool: `Join attributes by nearest` 
 - Input layer: `settlements_ibadan_southwest`
 - Input layer 2 (join layer): `major_roads_ibadan_southwest`
 - Maximum nearest neighbours: 1
