@@ -35,8 +35,8 @@ Visual inspection confirmed no clipped features from either layer fall outside t
 |---|---|---|
 | Is the CRS what I think it is? | Confirmed — mixed CRS found (EPSG:4326, EPSG:3857) | Reprojected all layers to EPSG:32631 |
 | Are there nulls  in the fields I need? | Yes — `surface` on roads is sparse/inconsistent; not checked on settlement extents | Roads: acknowledged and worked around by not depending on `surface`. Settlements: not checked — file too large to sort without risking a system crash; flagged as an open gap |
-| Are there duplicate features? | Not checked | Flagged as an open gap, not yet run on any layer |
-| Is the geometry valid? | Not checked | Flagged as an open gap, not yet run on any layer |
+| Are there duplicate features? | No| Did a Statistics By Categories check and no duplicate feature was found |
+| Is the geometry valid? | Yes,checked | checked after clipping the data |
 | Does coverage span the whole study area? | Yes | Confirmed visually against satellite basemap; roads matched ~99% |
 
 ## 4. Problems found, and what I did
