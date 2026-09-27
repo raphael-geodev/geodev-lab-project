@@ -15,12 +15,16 @@ A web map showing which settlements in Ibadan South-West, Oyo State, are furthes
 ```
 ibadan-transport-access/
 ├── docs/
-│   ├── 01-project-brief.md      Week 1
-│   ├── 02-data-notes.md         Week 2
-│   └── 03-data-preparation.md   Week 3
+│   ├── 01-project-brief.md                  Week 1
+│   ├── 02-data-notes.md                     Week 2
+│   ├── 03-data-preparation.md               Week 3
+|   ├── 04-spatial-analysis.md               Week 4
+|   ├── ibadan_transport_access_map_.pmg     final map
+|   └── month-1-summary.md.                  month 1's summary
+|       
 ├── data/
 │   ├── raw/                     downloads, not committed
-│   └── processed/               outputs,  committed
+│   └── processed/              clipped and reprojected data,  committed
 ├── scripts/
 └── requirements.txt
 ```
@@ -38,6 +42,13 @@ pip install -r requirements.txt
 
 The data is not in this repository. Every source is linked in
 [the project brief](docs/01-project-brief.md), so anyone can fetch it. The processed data are  in [processed data](processed)
+
+Access all what have been done from week 1 to week 4 here
+- [Week 1](docs/01-project-brief.md)
+- [Week 2](docs/02-data-notes.md)
+- [Week 3](docs/03-data-preparation.md)
+- [Week 4](docs/04-spatial-analysis.md)
+- [Month 1 Summary](docs/month-1-summary.md)
 
 ## Progress
 
