@@ -50,12 +50,17 @@ Access all what have been done from week 1 to week 4 here
 - [Week 4](docs/04-spatial-analysis.md)
 - [Month 1 Summary](docs/month-1-summary.md)
 
+## Month 2: Development and early python
+- Week 5: development environment set up, hello.py proven working
+  
+
 ## Progress
 
 - [x] Week 1, project brief with a source link for every dataset
 - [x] Week 2, data downloaded, opened and described
 - [x] Week 3, reprojected, clipped and quality checked
 - [x] Week 4, first spatial analysis, checked four ways
+- [x] Week 5, development environment set up 
 
 ---
 
