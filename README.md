@@ -53,7 +53,7 @@ Access all what have been done from week 1 to week 4 here
 ## Month 2: Development and early python
 - Week 5: development environment set up, hello.py proven working
 - Week 6: set up the project with uv and added pandas. check.py prints the pandas version
-  
+- Week 7: analyse.py reads wards.csv, converts each area and clasifies each ward.
 
 ## Progress
 
@@ -63,6 +63,7 @@ Access all what have been done from week 1 to week 4 here
 - [x] Week 4, first spatial analysis, checked four ways
 - [x] Week 5, development environment set up
 - [x] Week 6, development environment set up
+- [x] Week 7, wrote python code to analyse wards in csv file 
       
 
 ---
