@@ -54,6 +54,8 @@ Access all what have been done from week 1 to week 4 here
 - Week 5: development environment set up, hello.py proven working
 - Week 6: set up the project with uv and added pandas. check.py prints the pandas version
 - Week 7: analyse.py reads wards.csv, converts each area and clasifies each ward.
+- Week 8: inspect_data.py summarizes the perimeter and area of blocks in my settlements_ibadan_southwest.csv data
+      
 
 ## Progress
 
@@ -63,8 +65,8 @@ Access all what have been done from week 1 to week 4 here
 - [x] Week 4, first spatial analysis, checked four ways
 - [x] Week 5, development environment set up
 - [x] Week 6, development environment set up
-- [x] Week 7, wrote python code to analyse wards in csv file 
-      
+- [x] Week 7, wrote python code to analyse wards in csv file
+- [x] Week 8, wrote a python code to summarize two columns
 
 ---
 
