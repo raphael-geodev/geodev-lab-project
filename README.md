@@ -55,7 +55,11 @@ Access all what have been done from week 1 to week 4 here
 - Week 6: set up the project with uv and added pandas. check.py prints the pandas version
 - Week 7: analyse.py reads wards.csv, converts each area and clasifies each ward.
 - Week 8: inspect_data.py summarizes the perimeter and area of blocks in my settlements_ibadan_southwest.csv data
-      
+- Week 9: summary.py is a refactored version of inspect_data.py
+
+### Month 2 reflection
+
+The biggest lesson this month was to check my output against what I expect, not just whether the script runs. In Week 8, two bugs didn't crash anything: an `append` outside my loop, and a return written with commas that built a set instead of a dictionary. Refactoring hasn't clicked yet, so I'll keep practising by rewriting my own scripts into small functions. My capstone on the Ibadan South-West settlements data shows how the settlements there are sized in blocks, from the smallest block to the largest.
 
 ## Progress
 
@@ -67,6 +71,7 @@ Access all what have been done from week 1 to week 4 here
 - [x] Week 6, development environment set up
 - [x] Week 7, wrote python code to analyse wards in csv file
 - [x] Week 8, wrote a python code to summarize two columns
+- [x] Week 9, wrote a cleaner version of week 8 code
 
 ---
 
