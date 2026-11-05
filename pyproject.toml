@@ -4,11 +4,14 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 authors = [
-    { name = "raphaeloladokun14-boop", email = "raphaeloladokun14@gmail.com" }
+    { name = "raphael-geodev", email = "ayoraphael37@gmail.com" }
 ]
 requires-python = ">=3.14"
 dependencies = [
+    "geopandas",
+    "matplotlib",
     "pandas>=3.0.6",
+    "rasterio",
 ]
 
 [project.scripts]
