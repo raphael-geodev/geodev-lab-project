@@ -61,6 +61,10 @@ Access all what have been done from week 1 to week 4 here
 
 The biggest lesson this month was to check my output against what I expect, not just whether the script runs. In Week 8, two bugs didn't crash anything: an `append` outside my loop, and a return written with commas that built a set instead of a dictionary. Refactoring hasn't clicked yet, so I'll keep practising by rewriting my own scripts into small functions. My capstone on the Ibadan South-West settlements data shows how the settlements there are sized in blocks, from the smallest block to the largest.
 
+## Month 3: Geospatial python and automation
+- week 10: Geopandas. Loaded, checked, joined and mapped in code
+
+
 ## Progress
 
 - [x] Week 1, project brief with a source link for every dataset
@@ -72,6 +76,7 @@ The biggest lesson this month was to check my output against what I expect, not 
 - [x] Week 7, wrote python code to analyse wards in csv file
 - [x] Week 8, wrote a python code to summarize two columns
 - [x] Week 9, wrote a cleaner version of week 8 code
+- [x] Week 10, explored geopandas
 
 ---
 
