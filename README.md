@@ -44,6 +44,7 @@ The data is not in this repository. Every source is linked in
 [the project brief](docs/01-project-brief.md), so anyone can fetch it. The processed data are  in [processed data](processed)
 
 Access all what have been done from week 1 to week 4 here
+
 - [Week 1](docs/01-project-brief.md)
 - [Week 2](docs/02-data-notes.md)
 - [Week 3](docs/03-data-preparation.md)
@@ -51,6 +52,7 @@ Access all what have been done from week 1 to week 4 here
 - [Month 1 Summary](docs/month-1-summary.md)
 
 ## Month 2: Development and early python
+
 - Week 5: development environment set up, hello.py proven working
 - Week 6: set up the project with uv and added pandas. check.py prints the pandas version
 - Week 7: analyse.py reads wards.csv, converts each area and clasifies each ward.
@@ -62,6 +64,7 @@ Access all what have been done from week 1 to week 4 here
 The biggest lesson this month was to check my output against what I expect, not just whether the script runs. In Week 8, two bugs didn't crash anything: an `append` outside my loop, and a return written with commas that built a set instead of a dictionary. Refactoring hasn't clicked yet, so I'll keep practising by rewriting my own scripts into small functions. My capstone on the Ibadan South-West settlements data shows how the settlements there are sized in blocks, from the smallest block to the largest.
 
 ## Month 3: Geospatial python and automation
+
 - week 10: Geopandas. Loaded, checked, joined and mapped in code
 
 
