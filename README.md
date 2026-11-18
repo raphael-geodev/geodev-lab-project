@@ -12,7 +12,7 @@ A web map showing which settlements in Ibadan South-West, Oyo State, are furthes
 
 ## What's in here
 
-```
+```md
 ibadan-transport-access/
 ├── docs/
 │   ├── 01-project-brief.md                  Week 1
@@ -67,6 +67,34 @@ The biggest lesson this month was to check my output against what I expect, not 
 
 - week 10: Geopandas. Loaded, checked, joined and mapped in code
 
+## Week 11: CRS and spatial operations
+
+### Coordinate reference system
+
+- EPSG code used: **EPSG:32631** (WGS 84 / UTM zone 31N).
+- Why: Ibadan lies between 0° and 6°E, which is UTM zone 31N. `estimate_utm_crs()` returned the same code.
+- My settlements and roads layers were already in EPSG:32631, so `to_crs` changed nothing. I kept it in the scripts so the measurements are always in metres.
+- Settlement footprint area: 24.0 km².
+
+### Scripts
+
+- `my_crs.py`: prints each layer's CRS, confirms the UTM zone, and measures area and road length in km² and km.
+- `my_validity.py`: 0 invalid geometries before and after `make_valid`, so no repairs were needed.
+- `my_count.py`: counted settlement centre points per LGA with `sjoin` (`within`) and `groupby`, then merged back so every LGA has a count, including zeros. Total counted: **1,536 of 1,536**. 1,515 fall in Ibadan South West and 21 fall in neighbouring LGAs.
+- `my_reach.py`: measured the straight-line distance from each settlement's centre point to the nearest road with `sjoin_nearest`.
+
+### Result
+
+110 of 1,536 settlements (about 7%) are more than 2 km from the nearest road. Median distance is 0.44 km and the farthest settlement is 2.78 km away. I chose 2 km because it is the threshold in my project question.
+
+Roads used: [file name and which road types are in it, e.g. "major_roads_ibadan_southwest, primary and secondary roads"].
+
+Map: `my_reach_map.png`. Result layer: `data/processed/settlements_road_distance.gpkg`.
+
+### Limitation
+
+Distance is measured in a straight line from each settlement's centre point to the nearest road. It is not travel distance along roads, and a centre point is only a rough stand-in for where people live. Real access may be worse than these numbers show.
+The settlements layer is also not clipped to the LGA: 21 of 1,536 settlements sit in neighbouring LGAs, so the study area is slightly larger than Ibadan South West. This i because I used the unclipped version of my file I committed to github.
 
 ## Progress
 
@@ -80,6 +108,7 @@ The biggest lesson this month was to check my output against what I expect, not 
 - [x] Week 8, wrote a python code to summarize two columns
 - [x] Week 9, wrote a cleaner version of week 8 code
 - [x] Week 10, explored geopandas
+- [x] Week 11, reprojection and spatial operations
 
 ---
 
