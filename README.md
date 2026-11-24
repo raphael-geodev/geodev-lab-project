@@ -96,6 +96,10 @@ Map: `my_reach_map.png`. Result layer: `data/processed/settlements_road_distance
 Distance is measured in a straight line from each settlement's centre point to the nearest road. It is not travel distance along roads, and a centre point is only a rough stand-in for where people live. Real access may be worse than these numbers show.
 The settlements layer is also not clipped to the LGA: 21 of 1,536 settlements sit in neighbouring LGAs, so the study area is slightly larger than Ibadan South West. This i because I used the unclipped version of my file I committed to github.
 
+## Week 12: Rasters
+
+- Computed NDVI for Ibadan South West and summarised it.
+
 ## Progress
 
 - [x] Week 1, project brief with a source link for every dataset
@@ -109,6 +113,7 @@ The settlements layer is also not clipped to the LGA: 21 of 1,536 settlements si
 - [x] Week 9, wrote a cleaner version of week 8 code
 - [x] Week 10, explored geopandas
 - [x] Week 11, reprojection and spatial operations
+- [x] Week 12, Raster with Rasterio
 
 ---
 
